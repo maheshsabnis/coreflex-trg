@@ -63,3 +63,20 @@
                 - npm install --save [PACKAGE-NAME]
             - Commands to 'build', 'test', 'run' the application, the 'script' block
         - npm init -y command to create package.json     
+- Component Creation Planning
+    - Visualize the UI
+        - USes Standard UI elements
+            - HTML
+            - Third-Party 
+            - React-Native has several Pre-Defined Components for Mobile UI
+    - Findout the Data accepted from End-User  or presented to them
+        - The 'state' definition
+    - Plan for Data Properies for Accepting and Presenting Data
+        - The 'state' and 'props' those will affect the UI
+    - Plan for events (Interactivity) that will be used to process the input and present the output
+        - Events for Handling UI Updates
+- UI Composition
+    - When the Component is to be created, find out how many times the same UI is repeated, if this is happening frequently then consider creating Re-usable components
+        - Plan for UI
+        - Plan for properties that will be used to accept data from parent component and generate UI
+        - Plan for the Event that will be raised by child component to emot data to parent component       
